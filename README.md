@@ -6,12 +6,35 @@ The Lost and Found Portal is a web-based application designed to help users repo
 
 
 Key Features of Lost and Found Portal
-- User Registration & Login: Secure account creation for posting and interacting with listings.
-- Lost Item Submission: Users can report lost items with descriptions, location, and images.
-- Found Item Submission: Users can share details and images of items they’ve found.
-- Item Listings Browsing: View all lost and found entries, organized by category, date, or location.
-- Search & Filter Options: Easily find relevant listings using filters and keyword search.
-- Direct Messaging: Contact the owner or finder of an item to verify and initiate recovery.
-- Account Dashboard: Users can manage their submissions and view message history.
+- User Registration & Login
+- Lost Item Submission
+- Found Item Submission
+- Item Listings Browsing
+- Search & Filter Options
+- Direct Messaging.]
+- Account Dashboard
 
+-Tech Stack
+Backend: Java, Servlets, JSP
+Frontend: HTML, CSS
+Database: MySQL
+Server: Apache Tomcat
+IDE: NetBeans
+
+-Project Structure
+LostAndFoundPortal/ ├── src/ # Java source files (DAO, Model, Servlet) ├── web/ # Web root (JSPs, HTML, CSS, uploads) │ ├── uploads/ # Uploaded item images │ └── WEB-INF/ # web.xml configuration ├── build.xml # Apache Ant build script ├── nbproject/ # NetBeans project configuration └── README.md # Project documentation (this file)
+
+-How to Run the Project
+1.Clone this repository:
+        git clone https://github.com/Aa-ra-dhana5/LostansFound.git
+2.Open in NetBeans IDE.
+3.Configure the MySQL database:
+        Import the required schema (.sql file if available).
+        Update DB connection settings in com.lostfound.db.DBConnection.java.
+4.Deploy the project on Apache Tomcat:
+       Right-click project → Run
+       Ensure Tomcat is configured in NetBeans
+
+Author -Divya Patel & Aaradhna Parmar 
+        L.D. College of Engineering
 
