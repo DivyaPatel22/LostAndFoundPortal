@@ -26,7 +26,7 @@ LostAndFoundPortal/ ├── src/ # Java source files (DAO, Model, Servlet) ├
 
 -How to Run the Project
 1.Clone this repository:
-        git clone https://github.com/Aa-ra-dhana5/LostansFound.git
+        git clone https://github.com/DivyaPatel22/LostAndFoundPortal/tree/main
 2.Open in NetBeans IDE.
 3.Configure the MySQL database:
         Import the required schema (.sql file if available).
