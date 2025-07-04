@@ -1,0 +1,49 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.lostfound.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.lostfound.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PostLostItemServlet</servlet-name>
+        <servlet-class>com.lostfound.servlet.PostLostItemServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostLostItemServlet</servlet-name>
+        <url-pattern>/PostLostItemServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PostFoundItemServlet</servlet-name>
+        <servlet-class>com.lostfound.servlet.PostFoundItemServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PostFoundItemServlet</servlet-name>
+        <url-pattern>/PostFoundItemServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ContactUserServlet</servlet-name>
+        <servlet-class>com.lostfound.servlet.ContactUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContactUserServlet</servlet-name>
+        <url-pattern>/ContactUserServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
